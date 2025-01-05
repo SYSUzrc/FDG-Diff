@@ -9,11 +9,31 @@
 &emsp;🎖️Codes for paper “**FDG-Diff: Frequency-Domain-Guided Diffusion Framework for Compressed Hazy Image Restoration**”  <br />
 
 
-Ruicheng Zhang, Kanghui Tian, Zeyu Zhang, Qixiang Liu, and Zhi Jin*_ <br />
+Ruicheng Zhang, Kanghui Tian, Zeyu Zhang, Qixiang Liu, and Zhi Jin* <br />
+
+## Introduction
+In this study, we reveal that the interaction between haze degradation and JPEG compression introduces complex joint loss effects, which significantly complicate image restoration.
+Existing dehazing models often neglect compression effects, which
+limits their effectiveness in practical applications. To address
+these challenges, we introduce three key contributions. First,
+we design FDG-Diff, a novel frequency-domain-guided dehazing
+framework that improves JPEG image restoration by leveraging
+frequency-domain information. Second, we introduce the HighFrequency Compensation Module (HFCM), which enhances
+spatial-domain detail restoration by incorporating frequencydomain augmentation techniques into a diffusion-based restoration framework. Lastly, the introduction of the DegradationAware Denoising Timestep Predictor (DADTP) module further enhances restoration quality by enabling adaptive regionspecific restoration, effectively addressing regional degradation
+inconsistencies in compressed hazy images. Experimental results
+across multiple compressed dehazing datasets demonstrate that
+our method consistently outperforms the latest state-of-the-art
+approaches.
+<center class ='img'>
+<img title="The track of the JPEG process. The colors in the loss map reflect the
+magnitude of the loss, as the absolute loss is computed separately for each
+of the three channels. Though compressed at a quite high QF of 80, the hazy
+images still suffers severe information loss in hazy regions." src="https://github.com/SYSUzrc/FDG-Diff/blob/main/insert/loss_map.png" width="100%">
+</center>
 
 ## Pipeline
 <center class ='img'>
-<img title="Architecture of the proposed network." src="https://github.com/SYSUzrc/APDM/blob/main/insert/pipeline.png" width="100%">
+<img title="Architecture of the proposed network." src="https://github.com/SYSUzrc/FDG-Diff/blob/main/insert/pipeline.png" width="100%">
 </center>
 
 ## Demo
@@ -39,8 +59,8 @@ Ruicheng Zhang, Kanghui Tian, Zeyu Zhang, Qixiang Liu, and Zhi Jin*_ <br />
 ## Installation
 ### Create a Virtual Environment
 ```
-conda create --name APDM python=3.7.12
-conda activate APDM
+conda create --name FDG-Diff python=3.7.12
+conda activate FDG-Diff
 ```
 
 ### Install Packages
@@ -69,29 +89,25 @@ pip install -r requirements.txt
 python eval_diffusion.py --config "test.yml" --resume 'Nhaze_ddpm.pth.tar' --sampling_timesteps 25 --grid_r 4
 ```
 
-
 ## Author
 📧 : zhangrch23@mail2.sysu.edu.cn
 
 ## Acknowledgment
 &emsp;This work was supported by the National Natural Science Foundation of China under Grant No.62071500; Supported by Supported by Shenzhen Science and Technology Program under Grant No. JCYJ20230807111107015. Supported by Fundamental Research Funds for the Central Universities, Sun Yat-sen University under Grant No. 241gqb015.
 &emsp;*Zhi Jin is the corresponding author. <br />
-&emsp;Portions of this code repository are derived from the following works. Acknowledgement is extended to these seminal contributions:
-* https://github.com/IGITUGraz/WeatherDiffusion
-* https://github.com/ermongroup/ddim
-
+&emsp;Portions of this code repository are derived from the following works: [WeatherDiffusion](https://github.com/IGITUGraz/WeatherDiffusion) and  [DDPM](https://github.com/ermongroup/ddim). Acknowledgement is extended to these seminal contributions.
 
 <!-- links -->
-[your-project-path]: https://github.com/SYSUzrc/APDM
-[contributors-shield]: https://img.shields.io/github/contributors/SYSUzrc/APDM.svg?style=flat-square 
-[contributors-url]: https://github.com/SYSUzrc/APDM/graphs/contributors 
-[forks-shield]: https://img.shields.io/github/forks/SYSUzrc/APDM.svg?style=flat-square 
-[forks-url]: https://github.com/SYSUzrc/APDM/network/members 
-[stars-shield]: https://img.shields.io/github/stars/SYSUzrc/APDM.svg?style=flat-square 
-[stars-url]: https://github.com/SYSUzrc/APDM/stargazers 
-[issues-shield]: https://img.shields.io/github/issues/SYSUzrc/APDM.svg?style=flat-square 
-[issues-url]: https://github.com/SYSUzrc/APDM/issues 
-[license-shield]: https://img.shields.io/github/license/SYSUzrc/APDM.svg?style=flat-square 
-[license-url]: https://github.com/SYSUzrc/APDM/blob/main/LICENSE.txt 
+[your-project-path]: https://github.com/SYSUzrc/FDG-Diff
+[contributors-shield]: https://img.shields.io/github/contributors/SYSUzrc/FDG-Diff.svg?style=flat-square 
+[contributors-url]: https://github.com/SYSUzrc/FDG-Diff/graphs/contributors 
+[forks-shield]: https://img.shields.io/github/forks/SYSUzrc/FDG-Diff.svg?style=flat-square 
+[forks-url]: https://github.com/SYSUzrc/FDG-Diff/network/members 
+[stars-shield]: https://img.shields.io/github/stars/SYSUzrc/FDG-Diff.svg?style=flat-square 
+[stars-url]: https://github.com/SYSUzrc/FDG-Diff/stargazers 
+[issues-shield]: https://img.shields.io/github/issues/SYSUzrc/FDG-Diff.svg?style=flat-square 
+[issues-url]: https://github.com/SYSUzrc/FDG-Diff/issues 
+[license-shield]: https://img.shields.io/github/license/SYSUzrc/FDG-Diff.svg?style=flat-square 
+[license-url]: https://github.com/SYSUzrc/FDG-Diff/blob/main/LICENSE.txt 
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555 
 [linkedin-url]: https://linkedin.com/in/zhangruicheng 
