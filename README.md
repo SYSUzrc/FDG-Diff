@@ -3,8 +3,7 @@
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
+
 
 &emsp;🎖️Codes for paper “**FDG-Diff: Frequency-Domain-Guided Diffusion Framework for Compressed Hazy Image Restoration**”  <br />
 
@@ -108,6 +107,3 @@ python eval_diffusion.py --config "test.yml" --resume 'Nhaze_ddpm.pth.tar' --sam
 [issues-shield]: https://img.shields.io/github/issues/SYSUzrc/FDG-Diff.svg?style=flat-square 
 [issues-url]: https://github.com/SYSUzrc/FDG-Diff/issues 
 [license-shield]: https://img.shields.io/github/license/SYSUzrc/FDG-Diff.svg?style=flat-square 
-[license-url]: https://github.com/SYSUzrc/FDG-Diff/blob/main/LICENSE.txt 
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555 
-[linkedin-url]: https://linkedin.com/in/zhangruicheng 
