@@ -1,14 +1,22 @@
-# FDG-Diff: Frequency-Domain-Guided Diffusion Framework for Compressed Hazy Image Restoration  #
+# FDG-Diff
 
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
+This is the code repository for the paper:
+> **FDG-Diff: Frequency-Domain-Guided Diffusion Framework for Compressed Hazy Image Restoration**
+>
+> [Ruicheng Zhang](https://github.com/SYSUzrc), Kanghui Tian, [Zeyu Zhang](https://steve-zeyu-zhang.github.io/), Qixiang Liu and [Zhi Jin](https://ieeexplore.ieee.org/author/37086340177)\*
+>
+> \*Corresponding author
+> 
+> **[[arXiv]]()** **[[Paper with Code]]()**
 
+## Citation
 
-&emsp;🎖️Codes for paper “**FDG-Diff: Frequency-Domain-Guided Diffusion Framework for Compressed Hazy Image Restoration**”  <br />
-
-
-Ruicheng Zhang, Kanghui Tian, Zeyu Zhang, Qixiang Liu, and Zhi Jin* <br />
+If you use any content of this repo for your work, please cite the following our paper:
+```
+@article{
+······
+}
+```
 
 ## Introduction
 In this study, we reveal that the interaction between haze degradation and JPEG compression introduces complex joint loss effects, which significantly complicate image restoration.
