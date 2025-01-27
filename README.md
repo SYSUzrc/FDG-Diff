@@ -18,9 +18,9 @@ This is the code repository for the paper:
 
 If you use any content of this repo for your work, please cite the following our paper:
 ```
-@article{zhang2025fdg-diff,
+@article{zhang2025fdg,
   title={FDG-Diff: Frequency-Domain-Guided Diffusion Framework for Compressed Hazy Image Restoration},
-  author={Ruicheng Zhang, Kanghui Tian, Zeyu Zhang, Qixiang Liu and Zhi Jin},
+  author={Zhang, Ruicheng and Tian, Kanghui and Zhang, Zeyu and Liu, Qixiang and Jin, Zhi},
   journal={arXiv preprint arXiv:2501.12832},
   year={2025}
 }
