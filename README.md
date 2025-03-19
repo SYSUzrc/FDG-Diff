@@ -6,6 +6,8 @@ This is the code repository for the paper:
 > [Ruicheng Zhang](https://github.com/SYSUzrc), Kanghui Tian, [Zeyu Zhang](https://steve-zeyu-zhang.github.io/), Qixiang Liu and [Zhi Jin](https://ieeexplore.ieee.org/author/37086340177)\*
 >
 > \*Corresponding author
+>
+> <em><b>ICME 2025</b></em>
 > 
 > **[[arXiv]](https://arxiv.org/abs/2501.12832)** **[[Paper with Code]](https://paperswithcode.com/paper/fdg-diff-frequency-domain-guided-diffusion)**
 <center class ='img'>
