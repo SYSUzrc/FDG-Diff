@@ -9,7 +9,7 @@ This is the code repository for the paper:
 >
 > <em><b>ICME 2025</b></em>
 > 
-> **[[arXiv]](https://arxiv.org/abs/2501.12832)** **[[Paper with Code]](https://paperswithcode.com/paper/fdg-diff-frequency-domain-guided-diffusion)**
+> **[[arXiv]](https://arxiv.org/abs/2501.12832)** **[[Paper with Code]](https://paperswithcode.com/paper/fdg-diff-frequency-domain-guided-diffusion)** **[[HF Paper]](https://huggingface.co/papers/2501.12832)**
 <center class ='img'>
 <img title="Improvement of FDG-Diff over the SOTA approaches on I-Haze  dataset. The circle size represents the corresponding SSIM values. Higher PSNR and SSIM indicate better performance, while lower FID values are preferred." src="https://github.com/SYSUzrc/FDG-Diff/blob/main/insert/性能对比图.png" width="50%">
 </center>
